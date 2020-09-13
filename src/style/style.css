@@ -1,0 +1,85 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+body {
+    background: rgb(160, 160, 160);
+    margin: 0;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid rgb(140, 140, 140);
+    box-shadow: 0 1px 2px rgb(160, 160, 160);
+    border-radius: 3px;
+    background: rgb(220,220,220);
+    transition: all 0.3s ease;
+}
+
+button.accept {
+    background: rgb(180,220,180);
+    border: 1px solid rgb(0, 130, 0);
+}
+button.accept:hover {
+    background: rgb(185,235,185);
+    border: 1px solid rgb(0, 160, 0);
+}
+button.delete {
+    background: rgb(255,120,120);
+}
+button.delete:hover {
+    background: rgba(255,0,0,.6);
+}
+
+button:hover {
+    background: rgb(240,240,240);
+    box-shadow: 0 1px 4px rgb(140, 140, 140);
+    border: 1px solid rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+button:hover:disabled, button:disabled {
+    border: 1px solid rgb(130, 130, 130);
+    box-shadow: 0 1px 2px rgb(160, 160, 160);
+    background: rgb(220,220,220);
+    cursor: not-allowed;
+}
+
+button:active {
+    background: rgb(190,190,190);
+    box-shadow: 0 0 0 rgb(140, 140, 140);
+    border: 1px solid rgb(30, 30, 30);
+}
+
+form label {
+    float: left;
+    line-height: 27px;
+    margin-right: 10px;
+}
+
+form fieldset {
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form input, form select {
+    border: 1px solid rgba(80, 80, 80);
+    min-width: 200px;
+    box-shadow: 0 1px 1px inset rgba(40, 40, 40, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,53 @@
+.auth-page-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.auth-page-header h1 i {
+    font-size: 20px;
+}
+
+.auth-page-header p {
+    margin-right: 15px;
+}
+.auth-page-header button {
+    margin-right: 20px;
+}
+
+.auth-page-content {
+    display: flex;
+    justify-content: center;
+}
+
+.auth-form {
+    flex: 0 1 300px;
+    background: rgb(220,220,220);
+    border: 1px solid rgb(220,220,220);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(100, 100, 100);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.auth-form .form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.auth-form .form-item:first-child {
+    margin-bottom: 10px;
+}
+
+.auth-form .form-item:last-child {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.auth-form button:last-child {
+    margin-left: 15px;
+}
+
+

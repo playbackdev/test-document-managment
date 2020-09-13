@@ -1,0 +1,52 @@
+.table-page-header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-page-header h1 {
+    flex: 1;
+    margin-left: 20px;
+}
+.table-page-header h1 i {
+    font-size: 20px;
+}
+
+.table-page-header p {
+    margin-right: 15px;
+}
+.table-page-header button {
+    margin-right: 20px;
+}
+
+.table-page-menu {
+    width: 100%;
+    background: rgb(230,230,230);
+    border: 1px solid rgb(170,170,170);
+    box-shadow: 0 2px 3px rgb(100, 100, 100);
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.table-page-menu button {
+    margin-right: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.table-page-menu h2 {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.table-page-menu h2 i {
+    font-size: 18px;
+}
+
+.table-page-content {
+    margin: 20px;
+}
+
+.table-page-content p {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}

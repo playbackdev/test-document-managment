@@ -1,0 +1,68 @@
+.table-documents {
+    color: #000000;
+    font-size: 12px;
+    background: rgb(240,240,240);
+    margin: 0 auto;
+    border: 1px solid rgb(220,220,220);
+    border-collapse:separate;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgb(100, 100, 100);
+}
+
+
+.table-documents td {
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+}
+
+.table-documents tr:first-child td {
+    padding: 10px;
+    background-color: rgb(210,210,210);
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-documents td.completed {
+    background-color: rgba(0, 150, 0, .6);
+}
+.table-documents td.notcompleted {
+    background-color: rgba(255, 0, 0, .6);
+}
+
+.table-documents td.alert {
+    background-color: rgba(255, 0, 0, .6);
+}
+
+.table-documents td.warning {
+    background-color: rgba(230, 180, 50, .7);;
+}
+
+.table-documents td:first-child, 
+.table-documents td:nth-child(4),
+.table-documents td:nth-child(8),
+.table-documents td:nth-child(9),
+.table-documents td:nth-child(11) {
+    text-align: center;
+}
+
+.table-documents td button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-documents td button:last-child {
+    margin-top: 5px;
+}
+
+.table-documents td:last-child button {
+    width: 30px;
+    line-height: 18px;
+}
+.table-documents td:last-child button i {
+    font-size: 14px;
+}
+
+

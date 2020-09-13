@@ -1,0 +1,38 @@
+.form-wrapper {
+    background: rgb(220,220,220);
+    margin: 25px;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+}
+
+.form-record {
+    flex: 0 1 440px;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(200,200,200);
+    border: 1px solid rgb(200,200,200);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(100, 100, 100);
+}
+
+.form-record .form-item {
+    clear: both;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.form-record>.form-item {
+    padding: 0 9px 0 9px;
+}
+
+.form-record button:last-child {
+    margin-left: 10px;
+}
+
+.form-record #id-status {
+    box-shadow: 0 0 0;
+    min-width: 0;
+}
